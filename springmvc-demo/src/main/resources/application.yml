@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springmvc-test
+
+server:
+  tomcat:
+    max-threads: 800
+    min-spare-threads: 50
+    connection-timeout: 5s
